@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	SOAP
-%define	pnam	Lite-SmartProxy
+%define		pdir	SOAP
+%define		pnam	Lite-SmartProxy
 Summary:	SOAP-Lite-SmartProxy - redirect/forward a SOAP client or request
 Summary(pl):	SOAP-Lite-SmartProxy - przekierowywanie/przekazywanie klientów lub ¿±dañ SOAP
 Name:		perl-SOAP-Lite-SmartProxy
