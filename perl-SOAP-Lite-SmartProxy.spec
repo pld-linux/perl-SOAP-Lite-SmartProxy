@@ -43,7 +43,7 @@ Skrypty klienckie nie musz± wiedzieæ, który serwer jest w³a¶ciwy dla
 danego ¿±dania i mog± wysy³aæ wszystkie ¿±dania do pojedynczego
 serwera g³ównego, który wykonuje przekierowania klientów do serwera
 aktualnie wykonuj±cego dane ¿±danie. Zdejmuje to ciê¿ar zarz±dzania ze
-strony kienckiej. Serwer mo¿e tak¿e przekierowywaæ klientów na now±
+strony klienckiej. Serwer mo¿e tak¿e przekierowywaæ klientów na now±
 nazwê klasy lub pe³ni URI dla akcji (jednak zak³ada siê, ¿e metody i
 argumenty pozostaj± sta³e).
 
