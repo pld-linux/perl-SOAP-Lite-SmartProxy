@@ -11,7 +11,7 @@ Name:		perl-SOAP-Lite-SmartProxy
 Version:	0.11
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	dc97f030cbcdae32212e5159792e1c06
