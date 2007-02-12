@@ -6,7 +6,7 @@
 %define		pdir	SOAP
 %define		pnam	Lite-SmartProxy
 Summary:	SOAP-Lite-SmartProxy - redirect/forward a SOAP client or request
-Summary(pl):	SOAP-Lite-SmartProxy - przekierowywanie/przekazywanie klientów lub ¿±dañ SOAP
+Summary(pl.UTF-8):   SOAP-Lite-SmartProxy - przekierowywanie/przekazywanie klientÃ³w lub Å¼Ä…daÅ„ SOAP
 Name:		perl-SOAP-Lite-SmartProxy
 Version:	0.11
 Release:	1
@@ -34,18 +34,18 @@ The relieves a maintenance burden on the client side. The server may
 also redirect clients to a new class name or fully qualified action
 URI (methods and arguments are assumed to remain constant however).
 
-%description -l pl
-Pakiet SmartProxy jest przeznaczony do u¿ywania w ¶rodowisku
-wieloserwerowym, gdzie jeden lub wiêcej serwerów nie s± bezpo¶rednio
-dostêpne dla skryptów od strony klienta. Pakiet SmartProxy w prosty
-sposób przekierowuje i przekazuje ¿±dania w zale¿no¶ci od klasy.
-Skrypty klienckie nie musz± wiedzieæ, który serwer jest w³a¶ciwy dla
-danego ¿±dania i mog± wysy³aæ wszystkie ¿±dania do pojedynczego
-serwera g³ównego, który wykonuje przekierowania klientów do serwera
-aktualnie wykonuj±cego dane ¿±danie. Zdejmuje to ciê¿ar zarz±dzania ze
-strony klienckiej. Serwer mo¿e tak¿e przekierowywaæ klientów na now±
-nazwê klasy lub pe³ni URI dla akcji (jednak zak³ada siê, ¿e metody i
-argumenty pozostaj± sta³e).
+%description -l pl.UTF-8
+Pakiet SmartProxy jest przeznaczony do uÅ¼ywania w Å›rodowisku
+wieloserwerowym, gdzie jeden lub wiÄ™cej serwerÃ³w nie sÄ… bezpoÅ›rednio
+dostÄ™pne dla skryptÃ³w od strony klienta. Pakiet SmartProxy w prosty
+sposÃ³b przekierowuje i przekazuje Å¼Ä…dania w zaleÅ¼noÅ›ci od klasy.
+Skrypty klienckie nie muszÄ… wiedzieÄ‡, ktÃ³ry serwer jest wÅ‚aÅ›ciwy dla
+danego Å¼Ä…dania i mogÄ… wysyÅ‚aÄ‡ wszystkie Å¼Ä…dania do pojedynczego
+serwera gÅ‚Ã³wnego, ktÃ³ry wykonuje przekierowania klientÃ³w do serwera
+aktualnie wykonujÄ…cego dane Å¼Ä…danie. Zdejmuje to ciÄ™Å¼ar zarzÄ…dzania ze
+strony klienckiej. Serwer moÅ¼e takÅ¼e przekierowywaÄ‡ klientÃ³w na nowÄ…
+nazwÄ™ klasy lub peÅ‚ni URI dla akcji (jednak zakÅ‚ada siÄ™, Å¼e metody i
+argumenty pozostajÄ… staÅ‚e).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
