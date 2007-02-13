@@ -6,7 +6,7 @@
 %define		pdir	SOAP
 %define		pnam	Lite-SmartProxy
 Summary:	SOAP-Lite-SmartProxy - redirect/forward a SOAP client or request
-Summary(pl.UTF-8):   SOAP-Lite-SmartProxy - przekierowywanie/przekazywanie klientów lub żądań SOAP
+Summary(pl.UTF-8):	SOAP-Lite-SmartProxy - przekierowywanie/przekazywanie klientów lub żądań SOAP
 Name:		perl-SOAP-Lite-SmartProxy
 Version:	0.11
 Release:	1
