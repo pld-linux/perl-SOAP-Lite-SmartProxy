@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	SOAP
 %define		pnam	Lite-SmartProxy
+%include	/usr/lib/rpm/macros.perl
 Summary:	SOAP-Lite-SmartProxy - redirect/forward a SOAP client or request
 Summary(pl.UTF-8):	SOAP-Lite-SmartProxy - przekierowywanie/przekazywanie klientów lub żądań SOAP
 Name:		perl-SOAP-Lite-SmartProxy
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	dc97f030cbcdae32212e5159792e1c06
+URL:		http://search.cpan.org/dist/SOAP-Lite-SmartProxy/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 # not BRed yet for test
